@@ -1,0 +1,23 @@
+p{
+    color:blue;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+}
+body{
+     background-image: url(fundo-de-formas-abstratas-brancas_79603-1362.avif) ;
+}
+.disciplina{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+#turma{
+    font-size: 10px;
+    margin: 0px;
+    background-color: black;
+    padding: ;
+
+}
