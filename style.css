@@ -1,23 +1,43 @@
-p{
-    color:blue;
-    font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-h1{
-    text-align: center;
-}
-body{
-     background-image: url(fundo-de-formas-abstratas-brancas_79603-1362.avif) ;
-}
-.disciplina{
-    color: white;
-    font-size: 20px;
-    text-align: center;
-}
-#turma{
-    font-size: 10px;
+* {
     margin: 0px;
-    background-color: black;
-    padding: ;
+    padding: 0px;
+}
 
+body{
+    background-color: #E5E4F7;
+    display: flex;
+}
+
+header{
+    display: flex;
+    background-color: #FFFDFD;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    width: 83px;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+}
+
+.navegacao{
+    display: flex;
+}
+
+.lista-navegacao{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.ancora-navegacao{
+    text-decoration: none;
+    color: #2028f2;
 }
