@@ -10,7 +10,6 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-
 }
 
 header{
@@ -26,7 +25,7 @@ header{
 }
 
 main{
-    min-height:calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
     max-width: 1300px;
     width: calc(100% - 87px);
     margin-left: 87px;
@@ -67,6 +66,7 @@ main{
     position: absolute;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 80vh, 0% 100%);
 }
+
 #colegio{
     display: flex;
     flex-direction: column;
@@ -74,4 +74,8 @@ main{
     justify-content: center;
     gap: 80px;
     padding: 40px;
+}
+
+#colegio .title{
+    
 }
